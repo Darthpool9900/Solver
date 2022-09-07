@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Calculadora",
+    "slug": "Calculadora",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon_final.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/Load_Screen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1e1e1f"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon_final.png",
+        "backgroundColor": "#1e1e1f"
+      },
+      "package": "com.darthpool9999.Calculadora"
+    },
+    "web": {
+      "favicon": "./assets/icon_final.png"
+    }
+  }
+}
